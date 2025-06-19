@@ -1,8 +1,10 @@
 package org.example.student;
 
+
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
+
 
 public class MongoDBConnection {
     private static final String URI = "mongodb://localhost:27017";
